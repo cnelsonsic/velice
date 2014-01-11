@@ -4,11 +4,19 @@
 
 A universal miniature skirmish wargame ruleset.
 
-If you want to skip straight to the rules, [they're over here.](https://github.com/cnelsonsic/velice/blob/master/book.md)
+If you want to skip straight to the rules, [they're over here.](https://github.com/cnelsonsic/velice/blob/master/build/book.md)
 
 ## Compiling
-The `make.py` script requires the `sh` python module, as well as `pandoc` to be installed.
+You'll need the latest pandoc, which necessitates installing `haskell-platform`, and then pandoc from cabal.
+At the moment, there's a bug in the `mmorph` package, so that arcane "cabal install" line will get pandoc installed, despite packaging errors.
+You will also need Python and `pip`.
 
 ```bash
-$ ./make.py
+$ sudo apt-get install haskell-platform texlive
+$ cabal update
+$ cabal install pandoc --reinstall --force-reinstalls --constraint=transformers==0.3.0.0
+$ pip install -r requirements.txt
+$ make
 ```
+
+The compiled files will be `build/book.pdf`.
