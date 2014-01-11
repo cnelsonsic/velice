@@ -4,9 +4,9 @@ from sh import pandoc
 from check import check
 
 book = []
-for chapter in os.listdir('.'):
+for chapter in os.listdir('src'):
     if ".mkd" in chapter:
-        with open(chapter, 'r') as f:
+        with open('src/'+chapter, 'r') as f:
             text = f.read()
             book.append(text)
 
@@ -18,7 +18,7 @@ pandoc = pandoc.bake('.temp.md', f='markdown',
                                  toc=True,
                                  standalone=True,
                                  chapters=True)
-pandoc(output="build/book.pdf", template="template")
+pandoc(output="build/book.pdf", template="src/template")
 pandoc(output="build/book.html", t="html5")
 pandoc(output="build/book.odt")
 pandoc(output="build/book.md", t="markdown_github")

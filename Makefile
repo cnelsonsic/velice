@@ -1,6 +1,6 @@
 all:
 	mkdir -p build
-	./make.py
+	./src/make.py
 
 clean:
-	rm -rfv build/ *.pyc
+	rm -rfv build/ ./src/*.pyc

@@ -118,7 +118,7 @@ $if(lang)$
 \fi
 $endif$
 
-\input{custom}
+\input{src/custom}
 
 $for(header-includes)$
 $header-includes$

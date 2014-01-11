@@ -13,7 +13,7 @@ Velice
 
 ***A universal miniature skirmish wargame ruleset.***
 
-[![Creative Commons License](images/cc-by-sa.png "CC-By-SA")](http://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](src/images/cc-by-sa.png "CC-By-SA")](http://creativecommons.org/licenses/by-sa/4.0/)
 
 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type"> Velice</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cnelsonsic/velice" property="cc:attributionName" rel="cc:attributionURL"> [Charles Nelson](https://github.com/cnelsonsic/velice)</a> is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
