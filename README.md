@@ -15,7 +15,7 @@ You will also need Python and `pip`.
 $ sudo apt-get install haskell-platform texlive
 $ cabal update
 $ cabal install pandoc --reinstall --force-reinstalls --constraint=transformers==0.3.0.0
-$ pip install -r requirements.txt
+$ pip install -r src/requirements.txt
 $ make
 ```
 
