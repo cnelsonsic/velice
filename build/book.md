@@ -13,7 +13,9 @@ Velice
 
 ***A universal miniature skirmish wargame ruleset.***
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Velice</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cnelsonsic/velice" property="cc:attributionName" rel="cc:attributionURL">Charles Nelson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+[![Creative Commons License](images/cc-by-sa.png "CC-By-SA")](http://creativecommons.org/licenses/by-sa/4.0/)
+
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type"> Velice</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cnelsonsic/velice" property="cc:attributionName" rel="cc:attributionURL"> [Charles Nelson](https://github.com/cnelsonsic/velice)</a> is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 This ruleset has almost no fluff. At the moment, it is almost entirely statistics and numbers and so on. That being said, keep in mind that there will be additional content packs available in the future.
 

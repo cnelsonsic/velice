@@ -7,7 +7,6 @@
 *.egg
 *.egg-info
 dist
-build
 eggs
 parts
 bin
@@ -35,6 +34,7 @@ nosetests.xml
 .project
 .pydevproject
 
+.env
 *.pdf
 *.html
 *.odt

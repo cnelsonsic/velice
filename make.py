@@ -18,10 +18,10 @@ pandoc = pandoc.bake('.temp.md', f='markdown',
                                  toc=True,
                                  standalone=True,
                                  chapters=True)
-pandoc(output="book.pdf", template="template")
-pandoc(output="book.html", t="html5")
-pandoc(output="book.odt")
-pandoc(output="book.md", t="markdown_github")
+pandoc(output="build/book.pdf", template="template")
+pandoc(output="build/book.html", t="html5")
+pandoc(output="build/book.odt")
+pandoc(output="build/book.md", t="markdown_github")
 os.unlink('.temp.md')
 
 bads = check('\n\n'.join(book))
