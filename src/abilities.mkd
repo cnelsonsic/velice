@@ -1,0 +1,14 @@
+{%
+set default_attack = attack(name='Attack',
+                            range='3cm',
+                            targets=1,
+                            trigger=challenge(target='target',
+                                            target_statistic='Armor',
+                                            bonus_statistic='Body'),
+                            effect=change_stat(target='target',
+                                            statistic='Health',
+                                            verb='takes',
+                                            direction='damage',
+                                            number='1d6+Body')
+                            )
+%}

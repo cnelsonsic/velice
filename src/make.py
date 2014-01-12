@@ -10,8 +10,16 @@ for chapter in os.listdir('src'):
             text = f.read()
             book.append(text)
 
+from jinja2 import Environment
+env = Environment()
+import macros
+env.globals.update(vars(macros))
+t = env.from_string('\n\n'.join(book))
+book = t.render()
+
 with open(".temp.md", 'w') as f:
-    f.write('\n\n'.join(book))
+    f.write(book)
+
 
 pandoc = pandoc.bake('.temp.md', f='markdown',
                                  smart=True,

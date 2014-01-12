@@ -83,7 +83,12 @@ Players take turns moving their units, one at a time. A unit may move and attack
 
 A unit may move up to its Body statistic in centimeters.
 
-A unit may only attack another unit if it is within range. The default range for an attack is 3cm.
+A unit may only attack another unit if it is within range. All units are presumed to have a default attack ability:
+
+Attack  
+Roll 1d20 and add this unit’s Body statistic. If the result is greater than or equal to the target’s Armor, the target takes 1d6+Body damage to its Health. This ability has a range of 3cm.
+
+*Attack (range: 3cm, targets: 1): challenge vs. target Armor (1d20+Body), 1d6+Body damage to target Health*
 
 ### Combat
 

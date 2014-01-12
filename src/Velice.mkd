@@ -175,7 +175,12 @@ A unit does not have to move or attack, both are optional.
 A unit may move up to its Body statistic in centimeters.
 
 A unit may only attack another unit if it is within range.
-The default range for an attack is 3cm.
+All units
+are presumed to have
+a default attack ability:
+
+{{ default_attack.long() }}
+     *{{ default_attack.short() }}*
 
 ### Combat
 
