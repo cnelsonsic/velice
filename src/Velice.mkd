@@ -179,6 +179,7 @@ All units
 are presumed to have
 a default attack ability:
 
+<!-- See src/abilities.mkd -->
 {{ default_attack.long() }}
      *{{ default_attack.short() }}*
 
